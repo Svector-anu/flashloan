@@ -1,0 +1,26 @@
+{
+  "name": "badgemint",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Soulbound achievement NFT minter supporting Base and Stacks blockchains",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "test": "pnpm --filter base-contracts test && pnpm --filter stacks-contracts test",
+    "lint": "pnpm --filter web lint"
+  },
+  "keywords": [
+    "web3",
+    "blockchain",
+    "base",
+    "stacks",
+    "nft",
+    "soulbound"
+  ],
+  "author": "svector-anu <svector.anu@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
