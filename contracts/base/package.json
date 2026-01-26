@@ -1,0 +1,13 @@
+{
+    "name": "badgemint-base",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "build": "forge build",
+        "test": "forge test",
+        "deploy": "forge script script/Deploy.s.sol --rpc-url $BASE_RPC_URL --broadcast"
+    },
+    "devDependencies": {
+        "forge-std": "github:foundry-rs/forge-std#v1.7.5"
+    }
+}
