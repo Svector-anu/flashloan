@@ -1,0 +1,20 @@
+[project]
+name = "skillbadge-stacks"
+description = "Soulbound achievement NFT minter on Stacks"
+authors = ["svector-anu"]
+telemetry = false
+cache_dir = "./.cache"
+
+[contracts.skill-badge]
+path = "contracts/skill-badge.clar"
+clarity_version = 2
+epoch = 2.5
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
