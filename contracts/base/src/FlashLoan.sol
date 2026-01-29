@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+//Flashloan solidity contract template - unaudited
 pragma solidity 0.8.20;
 
 interface IFlashLoanReceiver {
